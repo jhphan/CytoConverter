@@ -145,6 +145,7 @@ mkdir -p ${TMP_FULL}
 rm ${TMP_FULL}/cyto_input_*
 rm ${TMP_FULL}/cyto_output_*
 rm ${TMP_FULL}/cyto_log_*
+rm ${TMP_FULL}/cyto_stdout_*
 
 # Split input into multiple pieces
 total_lines=$( wc -l < ${INPUT_FULL} )
